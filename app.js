@@ -2,4 +2,6 @@ function myfunction(name){
     console.log("Hello " +name)
 }
 
-myfunction("Solo");
+let myarray = ["Solo", "26", "m"]
+
+console.log(myfunction(myarray[0]));
